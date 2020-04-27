@@ -5,10 +5,10 @@ public class BitReverseOperatorExample {
 		int num1 = 10;
 		int num2 = ~num1;
 		int num3 = num2 + 1;
-		int num4 = 1000000000000000000;
-		system.out.println(num4);
+		int num4 = 1000000;
+		System.out.println(num4);
 
-		syst
+		
 
 		// java2 conflict..
 

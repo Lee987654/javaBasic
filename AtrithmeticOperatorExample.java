@@ -1,6 +1,6 @@
 public class AtrithmeticOperatorExample {
 	public static void main(String[] args) {
-		int num = 10, num2 = 4;
+		int num1 = 10, num2 = 4;
 		
 		int result = num1 / num2;
 		System.out.println("result: " + result);

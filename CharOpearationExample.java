@@ -4,9 +4,10 @@ public class CharOpearationExample {
         int v1 =5;
         int v2 =2;
 
-        int result = v1 / v2; // 2
-        double result1 = (double) v1 / v2; // 2.5
-        System.out.println(result1);
+       
+        double sanghun3;
+        sanghun3 = divide(v1,v2);
+        System.out.println("result: " + sanghun3);
         
         int sanghun;
         sanghun = minus(v1, v2);
@@ -17,6 +18,8 @@ public class CharOpearationExample {
         System.out.println("result: " +sanghun2);
     
     } // end of main()
+
+    
 
     public static int sum(int num1, int num2) {
         int result = num1 + num2;
@@ -36,6 +39,8 @@ public class CharOpearationExample {
     public static int mult(int num1, int num2) {
         int result = (int)num1 * num2;
         return result;
+
+    
 }
 
 }
